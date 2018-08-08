@@ -1,0 +1,28 @@
+{
+    "menu" : [
+        {
+            "title" : "Dashboard",
+            "icon" : "fa-home"
+        },
+        {
+            "title" : "Products",
+            "icon" : "fa-cube",
+            "sub-menu" : [
+                {"title" : "Ebooks"},
+                {"courses" : "courses"}
+            ]
+        },{
+            "title" : "Library",
+            "icon" : "fa-university"
+        },{
+            "title" : "Metadata",
+            "icon" : "fa-server"
+        },{
+            "title" : "Snapshots",
+            "icon" : "fa-bookmark"
+        },{
+            "title" : "Publish",
+            "icon" : "fa-upload"
+        }
+    ]
+}
