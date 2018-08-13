@@ -2,26 +2,32 @@
     "menu" : [
         {
             "title" : "Dashboard",
-            "icon" : "fa-home"
+            "icon" : "fa-home",
+			"data" : "Dashboard"
         },
         {
             "title" : "Products",
+			"data" : "Products",
             "icon" : "fa-cube",
             "sub-menu" : [
-                {"title" : "Ebooks"},
-                {"courses" : "courses"}
+                {"title" : "Ebooks","data" : "Ebooks"},
+                {"courses" : "courses", "data" : "courses"}
             ]
         },{
             "title" : "Library",
+			"data" : "Library",
             "icon" : "fa-university"
         },{
             "title" : "Metadata",
+			"data" : "Metadata",
             "icon" : "fa-server"
         },{
             "title" : "Snapshots",
+			"data" : "Snapshots",
             "icon" : "fa-bookmark"
         },{
             "title" : "Publish",
+			"data" : "Publish",
             "icon" : "fa-upload"
         }
     ]
